@@ -54,3 +54,22 @@ push changes
 ```
 git push origin master
 ```
+
+
+### Check local branches
+asterik sign one is current branch
+```
+git branch
+```
+
+### Switching between one branch to other
+
+```
+git checkout branch-name
+```
+
+### Create a new branch
+```
+git checkout -b branch-name
+```
+
