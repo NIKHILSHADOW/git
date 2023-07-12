@@ -13,14 +13,27 @@ git config --global --add safe.directory D:/link1/link11/link111
 
 ### ADD Command
 
-move file from untracked to tracked
+Move file from untracked to tracked
 ```
 git add filename.txt
 ```
 
 
+![image-1](slaGB-1.png)
 
-move all changes(untracked and modified) to staged
+
+
+
+
+
+
+
+
+
+
+
+
+Move all changes(untracked and modified) to staged
 
 ```
 git add .
@@ -30,34 +43,34 @@ or
 git add -a
 ```
 
-move each change one by one
-works only for tracked files
+Move each change one by one
+Works only for tracked files
 ```
 git add -p
 or
 git add --patch
 ```
 ### Commit
-commit changes which are staged
+Commit changes which are staged
 ```
 git commit -m "type-message-here"
 ```
 
 ### Move files to remote directory
 
-set remote first
+Set remote first
 ```
 git remote add origin git@github.com:user-name/repo-name.git
 ```
 
-push changes
+Push changes
 ```
 git push origin master
 ```
 
 
 ### Check local branches
-asterik sign one is current branch
+Asterik sign one is current branch
 ```
 git branch
 ```
@@ -73,3 +86,26 @@ git checkout branch-name
 git checkout -b branch-name
 ```
 
+View remote branches
+
+```
+git branch -r
+```
+
+View local and remote branches
+
+```
+git branch -a
+```
+
+View branch with commit
+
+```
+git branch -vv
+```
+
+View branch with commit of local and remote
+
+```
+git branch -vva
+```
