@@ -18,16 +18,9 @@ Move file from untracked to tracked
 git add filename.txt
 ```
 
+### File status in GIT
 
-![image-1](slaGB-1.png)
-
-
-
-
-
-
-
-
+![image-1](image1.png)
 
 
 
