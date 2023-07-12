@@ -37,9 +37,20 @@ git add -p
 or
 git add --patch
 ```
-
+### Commit
 commit changes which are staged
 ```
 git commit -m "type-message-here"
 ```
 
+### Move files to remote directory
+
+set remote first
+```
+git remote add origin git@github.com:user-name/repo-name.git
+```
+
+push changes
+```
+git push origin master
+```
