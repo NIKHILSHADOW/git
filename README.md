@@ -20,7 +20,7 @@ git add filename.txt
 
 ### File status in GIT
 
-![image-1](image1.png)
+![image-1](/temp/image1.png)
 
 
 
