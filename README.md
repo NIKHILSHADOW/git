@@ -102,3 +102,9 @@ View branch with commit of local and remote
 ```
 git branch -vva
 ```
+
+### Diff between local branch and remote branch
+
+```
+git diff branch-name origin/branch-name
+```
