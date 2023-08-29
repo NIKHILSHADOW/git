@@ -1,4 +1,21 @@
-# BASIC GIT COMMANDS
+# BASICS OF GIT AND GITHUB
+
+### GIT
+
+* Git is a distributed version control System
+* It provides mechanisms to manage, track, organise different versions of source code 
+* Here we can create multiple braches and work on each independently
+* After finishing changes in different branches, we can merge them 
+* It helps when we are working on a different use cases of application 
+
+### GITHUB
+
+* It is web based platform that manages git repositories
+* It provide additional features like collaboration, code-review and project management
+* It is remote repository, where multiple developers can work on it 
+* It offers easy code sharing with others, and recieve multiple pull requests
+  and continuous integration and deployment. 
+
 
 ### Intialise the git repository
 ```
